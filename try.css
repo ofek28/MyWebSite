@@ -1,0 +1,402 @@
+
+html {
+  scroll-behavior: smooth;
+  
+}
+body{
+  background-image: url("./my_pic.png ");
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-position: top;
+  background-size: 99%;
+  position: relative;
+  
+  
+}
+.introduction{
+  background-color: rgba(0,0,0, 0.3);
+  border: 5px solid white;
+  border-radius: 40px;
+  width: 550px;
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+
+}
+
+
+.header{
+  color: #213555;
+  font-family: 'Belanosima', sans-serif;
+}
+
+.sub{
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #4F709C;
+}
+
+#social{
+  position: absolute;
+  bottom: 0px;
+  
+}
+
+a img{
+  padding: 20px;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+}
+#first p{
+  margin: 20;
+
+}
+#first{
+  position: absolute;
+  top: 700px;
+  left:15%;
+  height: 250px;
+  width: 250px;
+  background-color: rgba(0,0,0, 0.3)   ;
+  padding: 20px;
+  border: 7px solid black;
+  border-radius: 30px;
+  font-family: 'Ysabeau Office', sans-serif;
+  color:    #D0F5BE;
+  font-size: 38px;
+  text-align: center;
+  
+}
+#seccond p{
+  margin-top: 18%;
+}
+#seccond{
+position:absolute;
+left: 39.3%;
+top: 700px;
+height: 250px;
+width: 250px;
+background-color: rgba(0,0,0, 0.3)   ;
+padding: 20px;
+border: 7px solid black;
+border-radius: 30px;
+font-family: 'Ysabeau Office', sans-serif;
+color:    #98EECC;
+font-size: 40px;
+text-align: center;
+
+}
+#third p{
+  margin-top: 8%;
+}
+
+#third{
+position: absolute;
+left: 63.6%;
+top: 700px;
+height: 250px;
+width: 250px;
+background-color: rgba(0,0,0, 0.3)   ;
+padding: 20px;
+border: 7px solid black;
+border-radius: 30px;
+font-family: 'Ysabeau Office', sans-serif;
+color:    #A2FF86;
+font-size: 38px;
+text-align: center;
+}
+#line_1{
+  position: absolute;
+  top: 610px ;
+  right: 0;
+  height: 0px;
+  width: 440px;
+  background-color: rgba(0,0,0, 0.3)   ;
+  border: 8px solid black;
+  border-radius: 6px;
+}
+#line_2{
+  position: absolute;
+  top: 1095px ;
+  left: 0;
+  height: 0px;
+  width: 50%;
+  background-color: rgba(0,0,0, 0.3)   ;
+  border: 8px solid black;
+  border-radius: 6px;
+}
+#line_3{
+  position: absolute;
+  top: 1080px ;
+  left: 0;
+  height: 0px;
+  width: 35%;
+  background-color: rgba(0,0,0, 0.3)   ;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+#work{
+  position: absolute;
+  top: 1300px;
+  height: 470px;
+  width: 50%;
+  background-color: #D0F5BE ;
+
+}
+#work p{
+    margin: 40px;
+    font-size: 30px;
+}
+#study{
+  position: absolute;
+  top: 1770px;
+  left: 50%;
+  height: 470px;
+  width: 50%;
+  background-color: #98EECC ;
+  width: 50%;
+}
+#study p{
+    margin: 60px;
+    margin-left: 80px;
+    padding: 40px;
+    font-size: 30px;
+}
+#skills{
+  position: absolute;
+  top: 2240px;
+  height: 470px;
+  width: 50%;
+  background-color: #A2FF86 ;
+  width: 50%;
+}
+#skills p{
+    font-size: 30px;
+    padding-left: 10px;
+    margin-left: 90px;
+}
+#skills li{
+  font-size: 25px;
+  list-style: none;
+  margin-left: 20px;
+}
+#basketball{
+  width:50%;
+  left: 50%;
+  height: 470px;
+  position:absolute;
+  top: 1300px;
+}
+#cpu{
+  width:50%;
+  height: 470px;
+  position: absolute;
+  top: 1770px;
+}
+#maccabi{
+  width:50%;
+  left: 50%;
+  height: 470px;
+  position: absolute;
+  top: 2240px;
+}
+#about{
+  color: black;
+  font-size: 55px;
+  position: absolute;
+  left: 42.3%;
+  top: 1150px;
+}
+@media all and (max-width: 1000px) {
+
+  .introduction{
+    position: absolute;
+    max-width: 30%;
+    max-height: 10%;
+    left: 22%;
+    top: 2.7%;
+    font-size:1.3vw;
+      border: 2px solid white;
+    border-radius: 16px;
+  }
+  #line_1{
+    display: grid;
+    position: absolute;
+    top: 13.8% ;
+    right: 0;
+    max-width: 25%;
+    background-color: rgba(0,0,0, 0.3)   ;
+    border: 6px solid black;
+    border-radius: 4px;
+  }
+  #first{
+    position: absolute;
+    top: 16%;
+    left:7.5%;
+    height: 250px;
+    max-width: 20%;
+    background-color: rgba(0,0,0, 0.3)   ;
+    padding: 20px;
+    border: 1% solid black;
+    border-radius: 30px;
+    font-family: 'Ysabeau Office', sans-serif;
+    color:    #D0F5BE;
+    font-size: 38px;
+    text-align: center;
+    
+  }
+  #seccond{
+    position:absolute;
+    left: 37.5%;
+    top: 16%;
+    height: 250px;
+    max-width: 20%;
+    background-color: rgba(0,0,0, 0.3)   ;
+    padding: 20px;
+    border: 1% solid black;
+    border-radius: 1;
+    font-family: 'Ysabeau Office', sans-serif;
+    color:    #98EECC;
+    font-size: 40px;
+    text-align: center;
+    
+    }
+    #third{
+      position: absolute;
+      left: 67.5%;
+      top: 16%;
+      height: 250px;
+      max-width: 20%;
+      background-color: rgba(0,0,0, 0.3)   ;
+      padding: 20px;
+      border: 1% solid black;
+      border-radius: 30px;
+      font-family: 'Ysabeau Office', sans-serif;
+      color:    #A2FF86;
+      font-size: 38px;
+      text-align: center;
+      }
+
+      #first p{
+        margin: 0;
+      }
+      #third p{
+        margin: 0;
+      }
+      #line_2{
+        position: absolute;
+        top: 28.3% ;
+        left: 0;
+        height: 0px;
+        width: 50%;
+        background-color: rgba(0,0,0, 0.3)   ;
+        border: 6px solid black;
+        border-radius: 4px;
+      }
+      #line_3{
+        position: absolute;
+        top: 28% ;
+        left: 0;
+        height: 0px;
+        width: 35%;
+        background-color: rgba(0,0,0, 0.3)   ;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      #about{
+        color: black;
+        font-size: 3rem;
+        position: absolute;
+        left: 40.3%;
+        top: 29%;
+    }
+    #work{
+      position: absolute;
+      top: 34%;
+      height: 16%;
+      width: 50%;
+      background-color: #D0F5BE ;
+    
+    }
+    #work p{
+        margin: 10%;
+        font-size:  1.5rem;
+    }
+    #basketball{
+      width:50%;
+      left: 50%;
+      height: 16%;
+      position:absolute;
+      top: 34%;
+    }
+    #study{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 16%;
+      width: 50%;
+      background-color: #98EECC ;
+
+    }
+    #study p{
+        margin: 6%;
+        padding: 9%;
+        font-size: 1.6rem;
+    }
+    #cpu{
+      width:50%;
+      height: 16%;
+      position: absolute;
+      top: 50%;
+    }
+    #skills{
+      position: absolute;
+      top: 66%;
+      height: 16%;
+      width: 50%;
+      background-color: #A2FF86 ;
+      width: 50%;
+    }
+    #skills p li{
+        padding-left: 10px;
+        margin-left: 90px;
+    }
+    #skills li{
+      font-size: 1.3rem;
+    }
+    
+    li{
+      font-size: 30px;
+      list-style: none;
+      margin-left: 20px;
+    }
+    #maccabi{
+      width:50%;
+      left: 50%;
+      height: 16%;
+      position: absolute;
+      top: 66%;
+    }
+    #social{
+      position: absolute;
+      bottom: 0px;
+      
+    }
+    
+    a img{
+      padding: 20px;
+      position:relative;
+      bottom: 0;
+      left: 0;
+      width: 8%;
+    }
+
+      
+      
+}
