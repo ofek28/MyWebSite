@@ -231,7 +231,7 @@ text-align: center;
     top: 13.8% ;
     right: 0;
     max-width: 25%;
-    background-color: rgba(0,0,0, 0.3)   ;
+    background-color: rgba(0,0,0, 0.3);
     border: 6px solid black;
     border-radius: 4px;
   }
@@ -241,7 +241,7 @@ text-align: center;
     left:7.5%;
     height: 250px;
     max-width: 20%;
-    background-color: rgba(0,0,0, 0.3)   ;
+    background-color: rgba(0,0,0, 0.3);
     padding: 20px;
     border: 1% solid black;
     border-radius: 30px;
@@ -397,53 +397,3 @@ text-align: center;
       width: 8%;
     }
   }
-@media all and (min-width: 1500px){
-  .introduction{
-    font-size: 1.8rem;
-    width: 35%;
-    left: 20%;
-    top: 7%;
-  }
-  #line_1{
-    top: 27.3%;
-  }
-  #first{
-    top: 30%;   
-  }
-  #seccond{
-    top: 30%;
-    }
-    #third{
-      top: 30%;
-    }
-    #line_2{
-      top: 42.5%;
-    }
-    #line_3{
-      top: 42%;
-    }
-    #about{
-      top: 44%;
-  }
-    #work{
-      top: 50%;
-    }
-    #basketball{
-      top: 50%;
-    }
-    #study{
-      top: 65.6%;
-    }
-    #cpu{
-      top:65.6%;
-    }
-    #skills{
-      top: 81.2%;
-    }
-    #maccabi{
-      top: 81.2%;
-    }
-    #social{
-      top:100%
-    }
-}
