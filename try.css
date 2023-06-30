@@ -396,7 +396,54 @@ text-align: center;
       left: 0;
       width: 8%;
     }
-
-      
-      
+  }
+@media all and (min-width: 1500px){
+  .introduction{
+    font-size: 1.8rem;
+    width: 35%;
+    left: 20%;
+    top: 7%;
+  }
+  #line_1{
+    top: 27.3%;
+  }
+  #first{
+    top: 30%;   
+  }
+  #seccond{
+    top: 30%;
+    }
+    #third{
+      top: 30%;
+    }
+    #line_2{
+      top: 42.5%;
+    }
+    #line_3{
+      top: 42%;
+    }
+    #about{
+      top: 44%;
+  }
+    #work{
+      top: 50%;
+    }
+    #basketball{
+      top: 50%;
+    }
+    #study{
+      top: 65.6%;
+    }
+    #cpu{
+      top:65.6%;
+    }
+    #skills{
+      top: 81.2%;
+    }
+    #maccabi{
+      top: 81.2%;
+    }
+    #social{
+      top:100%
+    }
 }
